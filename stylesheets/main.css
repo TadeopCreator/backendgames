@@ -1,25 +1,50 @@
-/* Reset default margin for heading elements */
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
-
-/* Apply styles to the title */
-.title {
-  color: #ec6723;
-  background-color: #252526; /* Dark background color */
-  font-family: 'Roboto', sans-serif; /* Using Roboto font */
-  padding: 10px; /* Add some padding for better readability */
-}
-
-/* Apply general styling */
 body {
-  font-family: 'Roboto', sans-serif; /* Using Roboto font */
-  padding: 1em;
-  background-color: #252526; /* Almost black background color */
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #252526; /* Updated background color */
   color: #fff; /* White text color */
 }
 
-/* Style strong elements inside paragraphs */
-strong {
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.title {
+  color: #ec6723;
+  background-color: #333; /* Dark background color */
+  padding: 10px;
+  margin: 0;
+  font-size: 28px;
+}
+
+.policy-section {
+  padding: 20px;
+  background-color: #222;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.policy-section p {
+  margin: 15px 0;
+}
+
+.policy-section strong {
+  color: #ec6723;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-text a {
   color: #ec6723;
 }
